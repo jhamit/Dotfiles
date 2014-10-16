@@ -45,7 +45,7 @@ set lazyredraw
 set matchtime=3
 
 "Changing Leader Key
-let mapleader = ","
+let mapleader = ";"
 """"
 " Set title to window
 set title 
@@ -53,7 +53,7 @@ set title
 set dictionary=/usr/share/dict/words
 
 " Make pasting done without any indentation break."
-set pastetoggle=<F3>
+set pastetoggle=<F2>
 
 " Make Vim able to edit corntab fiels again.
 set backupskip=/tmp/*,/private/tmp/*"
@@ -130,8 +130,10 @@ nnoremap <leader>v V`]
 nnoremap <leader>ev <C-w><C-v><C-l>:e $MYVIMRC<cr>
 
 " jj For Qicker Escaping between normal and editing mode.
-"inoremap jj <ESC>
-
+inoremap jj <ESC>
+nnoremap <leader>s :w<cr>
+nnoremap <leader>q :qa<cr>
+nnoremap <leader>w :q<cr>
 
 " Working with split screen nicely
 " Resize Split When the window is resized"
