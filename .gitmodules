@@ -28,3 +28,6 @@
 [submodule "vim-files/vim/bundle/vim-colors-solarized"]
 	path = vim-files/vim/bundle/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "vim-files/vim/bundle/minibufexpl.vim"]
+	path = vim-files/vim/bundle/minibufexpl.vim
+	url = git@github.com:jhamit/minibufexpl.vim.git
